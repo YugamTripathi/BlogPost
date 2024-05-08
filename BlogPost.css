@@ -1,0 +1,48 @@
+.blog-img{
+    height:450px;
+    overflow:hidden;
+    
+}
+.blog-img img{
+width:100%;
+}
+/*.blog-post-content{
+    background-color: rgb(169, 215, 244);
+}*/
+    
+.blog-post-content h1{
+    font-family:var(--font2);
+    text-align: center;
+}
+.blog-post-content p{
+    text-align: left;
+    font-size:18px;
+    margin-top: 20px;
+} 
+.ROWS1{
+    display:flex;
+}
+.Home-Blog{
+    display:flex;
+    flex-direction:column;
+}
+.more-post{
+    flex-direction:column;
+    align-items: center;
+}
+.ROWS2{
+    display:flex;
+}
+/*.ROWS3{
+    display: flex;
+}*/
+.color-ROW3{
+    color: white;
+}
+.color-ROW4{
+    color: rgb(10, 79, 208);
+}
+.color-ROW5{
+    color: rgb(46, 100, 82);
+}
+

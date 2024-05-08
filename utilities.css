@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.max-width-1 {
+  max-width: 80vw;
+  
+}
+.font1 {
+  font-family: var(--font1);
+}
+.font2 {
+  font-family: var(--font2);
+}
+.max-width-2 {
+  max-width: 60vw;
+}
+.m-auto {
+  margin: auto;
+}
+.mx-1{
+    margin-left:23px;
+    margin-right: 23px;
+}
+.btn {
+  padding: 0px 20px;
+  padding-top: 3px;
+  border: 2px solid black;
+  border-radius: 6px;
+  font-family: var(--font2);
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.form-input {
+  padding: 0 5px;
+  padding-top: 3px;
+  font-size: 16px;
+  border: 2px solid black;
+  border-radius: 4px;
+  margin: 0 13px;
+  font-family: var(--font2);
+}
+:root {
+  --main-bg-color: rgb(196, 23, 11);
+  --font1: "Open Sans", sans-serif;
+  --font2: "Roboto", sans-serif;
+}
+.btn:hover {
+  color: rgb(23, 18, 173);
+  background:rgb(0, 0, 0);
+}
+.my-2{
+    margin-top:32px;
+    margin-bottom:32px;
+}
+.form-box input,textarea{
+    width:52vw;
+    padding:0px 6px;
+    border-radius: 5px;
+    border:2px black ;
+    margin:7px 0px;
+    font-size: 18px;
+    font-family: var(--font2);
+}
+
+
+
+
+
+
+
+/*<div class="Home-Blog">
+        <div class="Home-Blog-img">
+        <img src="img/Tailwind CSS.jpg" alt="TecnicalBlogs" />
+        </div>
+        <div class="Home-Blog-Content font2">
+          <a href="https://dly.to/dEZ2GRzSJga"
+            ><h3>5 Tailwind CSS Anti-Patterns to Avoid.</h3></a
+          >
+          <div>Author Name</div>
+          <span>22 March | 5 min read time</span>
+          </div>
+      </div>
+      <div class="Home-Blog">
+        <div class="Home-Blog-img">
+          <img src="img/DEVELOPER.jpg" alt="TecnicalBlogs" />
+        </div>
+        <div class="Home-Blog-Content font2">
+          <a href="https://dly.to/n0Cs4xNgDED"
+            ><h3>2 Sites to Become a Better Developer.</h3></a
+          >
+          <div>Author Name</div>
+          <span> 20 March | 7 min read time</span>
+          </div>
+      </div>
+      <div class="Home-Blog">
+        <div class="Home-Blog-img">
+          <img src="img/WFH SETUP.jpg" alt="TecnicalBlogs" />
+        </div>
+        <div class="Home-Blog-Content font2">
+          <a href="https://dly.to/DIfE84p31Ga"
+            ><h3>An Optimized WFH Setup.</h3></a
+          >
+          <div>Author Name</div>
+          <span> 25 March | 10 min read time</span>
+          </div>
+      </div>*/

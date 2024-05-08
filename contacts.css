@@ -1,0 +1,21 @@
+.Contact-Content {
+    height: 395px;
+    margin-top: 32px;
+    padding: 9px;
+    position: relative;
+    height:80vh;
+    overflow: hidden;
+  }
+  .Contact-Content::after {
+    content: "";
+    background-image: url("../img/Blog-img.jpg");
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+    z-index:-1;
+  }
+  .contacts-form{
+    height:80vh;
+  }
